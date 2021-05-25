@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(105, 208, 255);
+}
+.container{
+    text-align: center;
+    padding-top: 200px;
+}
+
+.container h1 {
+    font-size: 40px;
+}
+.container h4 {
+    font-size: 20px;
+    padding: 30px 0;
+}
+
+
+.quantity_input{
+    font-size: 25px;
+    width: 70px;
+    padding: 10px;
+    border: 2px solid rgb(128, 119, 0);
+    text-align: center;
+    color: #fff;
+}
+.quantity_minus{
+    padding: 10px;
+    border: 2px solid rgb(128, 105, 0);
+    background-color: grey;
+    color: honeydew;
+    border-radius:  5px 0 0 5px;
+    font-size: 25px;
+}
+.quantity_plus{
+    padding: 10px;
+    border: 2px solid rgb(128, 119, 0);
+    background-color: rgb(18, 68, 207);
+    border-radius: 0 5px 5px 0;
+    color: #fff;
+    font-size: 25px;
+}
